@@ -1,0 +1,1 @@
+import csv; import json;[(fetch('https://genius.com/api/artists/492/songs?page=' + str(page) + '&sort=release_date'),[csv.DictWriter(open('big sean songs.csv','a', newline = '', encoding = 'utf-8'),['artist','song']).writerow({'artist':song['primary_artist']['name'], 'song':song['title']}) for song in json.loads(response.text)['response']['songs']]) for page in range(1,29)]
