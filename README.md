@@ -1,6 +1,6 @@
 # Scrapy-Shell-One-Liners
 
-Minimalist approach to scraping inspired by Maksim Korzh. 
+Minimalist approach to scraping inspired by Code Monkey King. 
 https://www.youtube.com/channel/UClA-jNuyJKqN-xCm7KPG_XA/
 
 In one line, you are able to:
